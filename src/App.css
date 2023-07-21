@@ -184,6 +184,7 @@ h6 {
     display: flex;
     align-items: center;
   }
+
   .nav-links {
     height: auto;
     display: flex;
@@ -565,5 +566,11 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+@media screen and (min-width: 500px) {
+  .footer {
+    max-width: 1000px;
+  }
 }
 /* end of footer */
