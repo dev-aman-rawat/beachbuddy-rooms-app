@@ -560,17 +560,19 @@ h6 {
   margin-bottom: 0px;
   padding: 15px;
   font-size: 1.1rem;
+  /* margin: auto; */
 }
 
 .footer-center {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 10px 15px;
 }
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
   .footer {
     max-width: 1000px;
   }
-}
+} */
 /* end of footer */
