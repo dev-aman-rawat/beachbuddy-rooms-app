@@ -24,6 +24,23 @@ body {
   background: var(--mainWhite);
   font-family: "Crimson Text", serif;
 }
+
+body::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--mainGrey);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+  height: 1rem;
+}
+
 h1 {
   font-size: 3em;
   line-height: 1;
@@ -525,6 +542,7 @@ h6 {
   width: 100%;
   background: transparent;
   font-size: 1rem;
+  cursor: pointer;
 }
 .size-inputs {
   display: flex;
