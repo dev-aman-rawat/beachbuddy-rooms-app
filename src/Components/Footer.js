@@ -16,9 +16,9 @@ export default function Footer() {
               marginLeft: "5px",
               color: "steelblue",
             }}
-            href="github.com/amanr-dev"
+            href="github.com/dipanshurdev"
           >
-            Aman Rawat
+            Dipanshu Rawat
           </a>
         </span>
       </div>
